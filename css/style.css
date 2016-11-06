@@ -1,0 +1,26 @@
+ @-webkit-keyframes blinker {
+    0%   { background-color: #00ffff; }
+    49% { background-color: #00ffff; }
+    50% { background-color: #ff7bac; }
+    99% { background-color: #ff7bac; }
+    100% { background-color: #00ffff; }
+  }
+  @-moz-keyframes blinker {
+    0%   { background-color: #00ffff; }
+    49% { background-color: #00ffff; }
+    50% { background-color: #ff7bac; }
+    99% { background-color: #ff7bac; }
+    100% { background-color: #00ffff; }
+  }
+  @keyframes blinker {
+    0%   { background-color: #00ffff; }
+    49% { background-color: #00ffff; }
+    50% { background-color: #ff7bac; }
+    99% { background-color: #ff7bac; }
+    100% { background-color: #00ffff; }
+  }
+  body {
+  -webkit-animation: blinker 1s infinite;
+  -moz-animation:    blinker 1s infinite;
+  animation:         blinker 1s infinite;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "#HotlineBlink",
+  "description": "Promoting Technica while bringing back old web nostalgia",
+  "version": "2.0",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "css":["css/style.css"],
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "#HotlineBlink"
+  },
+  "manifest_version": 2
+}
