@@ -6,6 +6,7 @@
     "activeTab",
     "tabs"
   ],
+  "icons":{"16": "icon16.png"},
   "background": {
     "css":["css/style.css"],
     "scripts": ["background.js"],
